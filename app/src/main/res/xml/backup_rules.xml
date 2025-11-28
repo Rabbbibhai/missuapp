@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+    TODO: Use <include> and <exclude> tags to control what is backed up.
+    Attributes available in include/exclude tags:
+    domain = ["file" | "database" | "sharedpref" | "external" | "root"]
+    path = <string that can use the * and ** wildcard to match file paths>
+    requireFlags = ["clientSideEncryption" | "deviceToDevice"] (multiple separated by '|')
+
+    For more info: https://developer.android.com/guide/topics/data/autobackup
+    -->
+</full-backup-content>

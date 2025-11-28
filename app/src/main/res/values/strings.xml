@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Missu</string>
+    <string name="home">Home</string>
+    <string name="friends">Friends</string>
+    <string name="profile">Profile</string>
+    <string name="miss_sent">Miss sent to all friends!</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="remove_friend">Remove</string>
+    <string name="no_friends">No friends yet. Add some friends!</string>
+    <string name="enter_username">Enter username</string>
+    <string name="change_username">Change Username</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="english">English</string>
+    <string name="bangla">Bangla</string>
+    <string name="logout">Logout</string>
+    <string name="user_misses_you">%s misses you!</string>
+    
+    <!-- Google Sign In -->
+    <string name="default_web_client_id">1019947891164-8dl69nbi18jcpva9ar6jaui5kup3bj10.apps.googleusercontent.com</string>
+</resources>
