@@ -120,3 +120,5 @@ app/debug/
 
 # NDK
 obj/
+# Ignore Gradle build output directory
+build
