@@ -13,4 +13,11 @@
     <color name="coral_secondary">#FF937E</color>
     <color name="light_green_bg">#C1E59F</color>
     <color name="green_accent">#A3D78A</color>
+
+    <!-- Additional colors for layout compatibility -->
+    <color name="light_pink_bg">#FFF5F5F5</color>
+    <color name="pink">#FF4081</color>
+
+    <!-- Text colors -->
+    <color name="text_secondary">#757575</color>
 </resources>

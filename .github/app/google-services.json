@@ -1,36 +1,35 @@
 {
   "project_info": {
-    "project_number": "1019947891164",
-    "project_id": "missu-app-3245a",
-    "storage_bucket": "missu-app-3245a.firebasestorage.app"
+    "project_number": "187688062804",
+    "project_id": "missu-app-v2-96319",
+    "storage_bucket": "missu-app-v2-96319.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1019947891164:android:df61ad88aed915d6807719",
+        "mobilesdk_app_id": "1:187688062804:android:12368cbb9350656b7e42c1",
         "android_client_info": {
           "package_name": "com.missu.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1019947891164-8dl69nbi18jcpva9ar6jaui5kup3bj10.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "187688062804-6j7j7umbhueg9j9nuu5t76ggb0k18m1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.missu.app",
+            "certificate_hash": "ef9f3a5ebc302b7bd606b3106cf66f017e991850"
+          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDHdHOFaZecZpxdLD-Hh7l54yon3eY953w"
+          "current_key": "AIzaSyDS6XD5dR6D9WVbc2A9hgFRjZJFNYGzWks"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1019947891164-8dl69nbi18jcpva9ar6jaui5kup3bj10.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

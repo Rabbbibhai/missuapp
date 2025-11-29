@@ -33,7 +33,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome to Missu"
+                android:text="Welcome to Missu!"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
@@ -42,32 +42,42 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Send and receive 'miss you' notifications with friends"
+                android:text="Choose your username to get started"
                 android:textSize="14sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="32dp"
                 android:gravity="center" />
 
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone" />
+
             <EditText
-                android:id="@+id/emailEditText"
+                android:id="@+id/usernameEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter your email"
-                android:inputType="textEmailAddress"
+                android:hint="Enter username"
+                android:inputType="text"
+                android:maxLines="1"
                 android:layout_marginBottom="16dp" />
 
             <Button
-                android:id="@+id/sendLinkButton"
+                android:id="@+id/continueButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Send Sign-in Link"
+                android:text="Initializing..."
                 android:textColor="@color/white"
-                android:backgroundTint="@color/red_primary" />
+                android:backgroundTint="@color/red_primary"
+                android:enabled="false" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="We'll send a magic link to your email"
+                android:text="Setting up your account..."
                 android:textSize="12sp"
                 android:textColor="@color/text_secondary"
                 android:layout_gravity="center_horizontal"

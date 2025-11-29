@@ -2,13 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Internet Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
-    <!-- Notifications -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -19,22 +14,19 @@
         android:theme="@style/Theme.Missu"
         tools:targetApi="31">
         
-        <!-- Login Activity -->
         <activity
-            android:name=".LoginActivity"
+            android:name=".UsernameActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Main Activity -->
+
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-        
-        <!-- Firebase Messaging Service -->
+
         <service
             android:name=".MyFirebaseMessagingService"
             android:exported="false">
@@ -42,6 +34,7 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
     </application>
 
 </manifest>
